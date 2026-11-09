@@ -6,7 +6,7 @@ class Program
     {
         Console.WriteLine("Hello World! This is my Resumes Project.");
 
-        // Create first job
+        // Create first job.
         Job job1 = new Job();
         job1._jobTitle = "Software Engineer";
         job1._company = "Cedar3 Technology";
