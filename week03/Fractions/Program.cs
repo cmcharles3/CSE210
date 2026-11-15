@@ -60,7 +60,7 @@ namespace Fractions
     {
         static void Main(string[] args)
         {
-            // ---- Verify all three constructors ----
+            // ---- Verifying all three constructors ----
             Fraction fraction1 = new Fraction();          // 1/1
             Fraction fraction2 = new Fraction(6);         // 6/1
             Fraction fraction3 = new Fraction(6, 7);      // 6/7
@@ -71,7 +71,7 @@ namespace Fractions
             Console.WriteLine(fraction3.GetFractionString());
             Console.WriteLine();
 
-            // ---- Verify getters and setters ----
+            // ---- Verifying getters and setters ----
             Fraction fraction4 = new Fraction();
             fraction4.SetTop(3);
             fraction4.SetBottom(4);
@@ -81,7 +81,7 @@ namespace Fractions
             Console.WriteLine($"Bottom: {fraction4.GetBottom()}");
             Console.WriteLine();
 
-            // ---- Verify representations (matching sample output) ----
+            // ---- Verifying representations (matching sample output) ----
             Fraction f1 = new Fraction();        // 1/1
             Fraction f2 = new Fraction(5);       // 5/1
             Fraction f3 = new Fraction(3, 4);    // 3/4
