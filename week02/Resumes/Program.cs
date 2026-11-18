@@ -15,7 +15,7 @@ class Program
 
         // CReate a second job
         Job job2 = new Job();
-        job2._jobTitle = "Sales Associate";
+        job2._jobTitle = "Manager";
         job2._company = "Matrix";
         job2._startYear = 2018;
         job2._endYear = 2020;
