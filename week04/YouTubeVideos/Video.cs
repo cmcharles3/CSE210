@@ -5,6 +5,7 @@ namespace YouTubeVideos
 {
     public class Video
     {
+        // Private member variables to store the video's title, author, length, and comments
         private string _title;
         private string _author;
         private int _lengthInSeconds;

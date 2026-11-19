@@ -4,6 +4,7 @@ namespace YouTubeVideos
 {
     public class Comment
     {
+        // Private member variables to store the commenter's name and the comment text
         private string _commenterName;
         private string _text;
 
