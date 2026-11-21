@@ -13,10 +13,10 @@ namespace Homework
 
             // Testing the MathAssignment class
             MathAssignment mathAssignment = new MathAssignment(
-                "Roberto Rodriguez", 
-                "Fractions", 
-                "7.3", 
-                "8-19"
+                "James Stewart", 
+                "Single-variable", 
+                "5.3", 
+                "2-13"
             );
             Console.WriteLine(mathAssignment.GetSummary());
             Console.WriteLine(mathAssignment.GetHomeworkList());
@@ -24,9 +24,9 @@ namespace Homework
 
             // Testing the WritingAssignment class
             WritingAssignment writingAssignment = new WritingAssignment(
-                "Mary Waters", 
-                "European History", 
-                "The Causes of World War II"
+                "Charles Dickens", 
+                "English Author", 
+                "Oliver Twist"
             );
             Console.WriteLine(writingAssignment.GetSummary());
             Console.WriteLine(writingAssignment.GetWritingInformation());
